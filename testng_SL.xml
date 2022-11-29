@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Global_Executions.Reports"/>      
+      <class name="S1_Login_Dashboard.TC_01_Accept_Cookies"/>
+      <class name="S1_Login_Dashboard.TC_02_Deny_Cookies"/>
+      <class name="S1_Login_Dashboard.TC_03_Username_Invalid"/>
+      <class name="S1_Login_Dashboard.TC_04_Password_Invalid"/>
+      <class name="Global_Executions.Login_Screen"/>
+      <class name="S2_ShoppingListManagement.TC_05_List_Creation"/>
+      <class name="S2_ShoppingListManagement.TC_06_Active_Inactive"/>
+      <class name="S2_ShoppingListManagement.TC_07_Modify"/>
+      <class name="S2_ShoppingListManagement.TC_08_Search_Column"/>  
+      <class name="S2_ShoppingListManagement.TC_09_Hofer_Search"/>    
+      <class name="S2_ShoppingListManagement.TC_11_Shopping_List_Exists"/>  
+      <class name="S2_ShoppingListManagement.TC_12_Auto_Cache_Clear"/>    
+      <class name="S2_ShoppingListManagement.TC_17_No_Item_Found"/>
+      <class name="S2_ShoppingListManagement.TC_10_Delete_Java"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

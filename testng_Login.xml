@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Global_Executions.Reports"/>
+      <class name="S1_Login_Dashboard.TC_01_Accept_Cookies"/>
+      <class name="S1_Login_Dashboard.TC_02_Deny_Cookies"/>
+      <class name="S1_Login_Dashboard.TC_03_Username_Invalid"/>
+      <class name="S1_Login_Dashboard.TC_04_Password_Invalid"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
